@@ -1,0 +1,46 @@
+body {
+    color: #999;
+    background: #999;
+}
+
+.field {
+    position: relative;
+    padding: 50px 50px 100px 50px ;
+    display: block;
+    margin: 0 auto;
+    width: 600px;    
+    background: #999;
+    border: 10px double #eee;
+    border-radius: 10px;
+}
+
+.row {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+
+    width: 140px;
+    height: 140px;
+    background: #fff;
+    border-radius: 40%;
+}
+
+.btn-stop {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    padding: 10px;
+    background: #666;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
